@@ -1,0 +1,4 @@
+/celerybeat-schedule.db
+/config.ini
+/session.session
+/dump.rdb
