@@ -2,3 +2,5 @@
 /config.ini
 /session.session
 /dump.rdb
+/venv
+/logs
