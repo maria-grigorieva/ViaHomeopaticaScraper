@@ -1,0 +1,18 @@
+[DEFAULT]
+phone =
+email =
+
+[TELEGRAM]
+api_id =
+api_hash =
+token =
+chat_id =
+chat_name =
+user_name =
+bot_name =
+bot_id =
+message_size_limit = 4096
+
+[CELERY]
+broker_url = redis://localhost:6379/0'
+broker_conn_str= redis://:@localhost:6379/0
