@@ -20,7 +20,7 @@ app = Celery('tasks', broker=broker_url, backend=broker_url)
 
 app.conf.beat_schedule = {
     'daily_pubmed': {
-        'task': 'tasks.pubmed',
+        'task': 'tasks.pubmed_crawler',
         'schedule': crontab(hour=22, minute=0)
     },
 }
